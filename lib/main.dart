@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:notekeeper/Screens/note_list.dart';
 import 'package:notekeeper/Screens/note_detail.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -12,11 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'NoteKeeper',
       debugShowCheckedModeBanner: false,
-      theme:  ThemeData(
-        primarySwatch: Colors.deepPurple
-      ),
-      // home: NoteList(),
-      home: NoteDetail(),
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      home: NoteList(),
+      // home: NoteDetail(),
     );
   }
 }
